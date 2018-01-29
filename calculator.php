@@ -29,4 +29,23 @@ return $result
 
 
 
+/*actual answer below*/
+function add(float $first, float $second) : float {
+	return($first + $second);
+}
+function divide(float $dividend, float$divisor) : float{
+	return($dividend / $divisor);
+}
+function multiply(float $first, float $second) : float{
+	return($first * $second);
+}
+function subtract(float $minuend, float $subtrahend) : float{
+	return($minuend - $subtrahend);
+}
+
+
+
+
+
+
 ?>
