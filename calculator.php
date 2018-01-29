@@ -13,6 +13,18 @@ $y = 0;
 $calculateTypes = '';
 $result = 0;
 
+function calculator($x, $y, $result) : int{
+	if ($result = $x + $y){
+		return $x + $y;
+	} elseif($result = $x * $y) {
+		return $x - $y;
+	}elseif($result = $x * $y){
+		return $x * $y;
+	}else($result = $x / $y){
+		return $x / $y;
+	}
+}
+return $result
 
 
 
