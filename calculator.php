@@ -42,7 +42,13 @@ function multiply(float $first, float $second) : float{
 function subtract(float $minuend, float $subtrahend) : float{
 	return($minuend - $subtrahend);
 }
-
+function main(float$first, float $second) : void{
+	echo"Addition :".add($first, $second) . PHP_EOL;
+	echo"Division :".divide($first, $second).PHP_EOL;
+	echo"Multiplication:".multiply($first,$second).PHP_EOL;
+	echo"Division:".divide($first, $second).PHP_EOL;
+}
+main(42,5);
 
 
 
